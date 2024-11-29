@@ -102,7 +102,6 @@ const skills = {
   ],
 };
 
-/*
 // Education Page
 const degrees = {
   degrees: [
@@ -119,7 +118,6 @@ const degrees = {
     },
   ],
 };
-*/
 
 // Projects Page
 const projectsHeader = {
