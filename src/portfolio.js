@@ -116,10 +116,9 @@ const degrees = {
       duration: "2023-2026",
       descriptions: [
         "⚡ I have studied basic computer science subjects like Data Structures and Algorithms.",
-        "⚡ I have done subjects that cover Deep Learning, Machine Learning and other Data Science techniques",
-        };
-          ],
-        };
+        "⚡ I have done subjects that cover Deep Learning, Machine Learning and other Data Science techniques"
+        ]
+    }
 
 
 
