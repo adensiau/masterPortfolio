@@ -102,7 +102,9 @@ const skills = {
           imageSrc: "deeplearning_ai_logo.png",
         },
       ],
-    };
+    },
+  ],
+};
   
       
 
