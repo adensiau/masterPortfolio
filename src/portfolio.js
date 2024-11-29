@@ -103,6 +103,7 @@ const skills = {
         },
       ],
     },
+  
       
 
 // Education Page
@@ -117,8 +118,9 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic computer science subjects like Data Structures and Algorithms.",
         "⚡ I have done subjects that cover Deep Learning, Machine Learning and other Data Science techniques"
-        ];
-    };
+        ],
+    },
+    
 
 
 
@@ -128,8 +130,6 @@ const projectsHeader = {
   description:
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects.",
   avatar_image_path: "projects_image.svg",
-};
-  ],
 };
 
 // Contact Page
