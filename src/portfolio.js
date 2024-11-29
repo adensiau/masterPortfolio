@@ -1,15 +1,14 @@
-/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Portfolio */
 
 // Website related settings
 const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
-//SEO Related settings
+// SEO Related settings
 const seo = {
   title: "Aden's Portfolio",
-  description:
-    "Data Science Student.",
+  description: "Data Science Student.",
   og: {
     title: "Aden Siau's Portfolio",
     type: "website",
@@ -17,25 +16,21 @@ const seo = {
   },
 };
 
-//Home Page
+// Home Page
 const greeting = {
   title: "Aden Siau",
   logo_name: "AdenSiau",
   nickname: ".",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/10d8i5pgQqPf_qhFTS5PVz47Nq-6SZ3XL/view?usp=sharing",
   portfolio_repository: "https://github.com/adensiau/adensiau-portfolio",
   githubProfile: "https://github.com/adensiau",
 };
 
+// Social Media Links
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/adensiau",
-  // gmail: "adensiau@gmail.com",
-  // instagram: "https://www.instagram.com/aden.siau/"
-
   {
     name: "Github",
     link: "https://github.com/adensiau",
@@ -56,15 +51,16 @@ const socialMediaLinks = [
   },
 ];
 
+// Skills Section
 const skills = {
   data: [
     {
       title: "Data Science",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing models for various deeplearning and statistical use cases",
+        "⚡ Developing models for various deep learning and statistical use cases",
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-        "⚡ Constructing image analysis and pattern recognition models"
+        "⚡ Constructing image analysis and pattern recognition models",
       ],
       softwareSkills: [
         {
@@ -92,21 +88,19 @@ const skills = {
         },
         {
           skillName: "R",
-          fontAwesomeClassname: "simple-icons:html5",
+          fontAwesomeClassname: "simple-icons:r",
           style: {
-            color: "#E34F26",
+            color: "#276DC3",
           },
         },
         {
-          skillName: "Deeplearning",
+          skillName: "Deep Learning",
           imageSrc: "deeplearning_ai_logo.png",
         },
       ],
     },
   ],
 };
-  
-      
 
 // Education Page
 const degrees = {
@@ -119,20 +113,17 @@ const degrees = {
       duration: "2023-2026",
       descriptions: [
         "⚡ I have studied basic computer science subjects like Data Structures and Algorithms.",
-        "⚡ I have done subjects that cover Deep Learning, Machine Learning and other Data Science techniques"
-        ],
-      },
-    ],
-  };
-    
-
-
+        "⚡ I have done subjects that cover Deep Learning, Machine Learning and other Data Science techniques.",
+      ],
+    },
+  ],
+};
 
 // Projects Page
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create Data Science projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -150,18 +141,14 @@ const contactPageData = {
   },
 };
 
+// Export Statements
 export {
   settings,
   seo,
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
-  certifications,
-  experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
 };
