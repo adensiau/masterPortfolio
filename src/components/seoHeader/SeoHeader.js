@@ -6,7 +6,7 @@ import {
   socialMediaLinks,
   experience,
   contactPageData,
-  certifications,
+//  certifications,
 } from "../../portfolio.js";
 
 function SeoHeader() {
