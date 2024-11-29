@@ -103,7 +103,6 @@ const skills = {
         },
       ],
     },
-    {
       
 
 // Education Page
